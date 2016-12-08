@@ -1,6 +1,6 @@
 {
   "name": "IconToggle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "js/IconToggle",
   "plugins": [
     "lotus-coffee"
@@ -12,7 +12,7 @@
   "dependencies": {
     "Shape": "aleclarson/Shape#2.0.1",
     "Toggle": "aleclarson/Toggle#1.0.0",
-    "modx": "aleclarson/modx#1.0.0",
+    "modx": "aleclarson/modx#2.1.0",
     "parseOptions": "aleclarson/parseOptions#1.0.0",
     "react-validators": "aleclarson/react-validators#1.0.0"
   }

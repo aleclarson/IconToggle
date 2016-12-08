@@ -1,15 +1,15 @@
 
-{ImageView} = require "modx/views"
 {Style} = require "react-validators"
-{Type} = require "modx"
 
 parseOptions = require "parseOptions"
+ReactType = require "modx/lib/Type"
+ImageView = require "modx/lib/ImageView"
 Toggle = require "Toggle"
 Shape = require "Shape"
 
 IconSize = Shape {width: Number, height: Number}
 
-type = Type "IconToggle"
+type = ReactType "IconToggle"
 
 type.defineOptions
   size: IconSize.isRequired
