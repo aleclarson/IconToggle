@@ -11,9 +11,11 @@ IconSize = Shape {width: Number, height: Number}
 
 type = ReactType "IconToggle"
 
-type.defineOptions
-  size: IconSize.isRequired
-  icons: Array.isRequired
+type.defineArgs ->
+  required: yes
+  types:
+    size: IconSize
+    icons: Array
 
 type.defineValues (options) ->
 
